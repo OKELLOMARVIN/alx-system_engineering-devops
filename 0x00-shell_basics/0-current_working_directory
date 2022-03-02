@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cd "$(0-current_working_directory "$1")"; pwd)
+realpath 0-current_working_directory
